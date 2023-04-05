@@ -49,10 +49,10 @@ const App = () => {
     if (validateEmail()) {
       emailJs
         .sendForm(
-          process.env.REACT_APP_SERVICE_ID,
-          process.env.REACT_APP_TEMP_ID,
+          "service_iid7wb8",
+          "template_dlexqla",
           e.target,
-          process.env.REACT_APP_PUB_ID
+          "_jCC7YPt8xkIiXKRX"
         )
         .then(() => {
           setPrevEmail(email);
